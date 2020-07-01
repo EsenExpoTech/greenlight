@@ -98,7 +98,7 @@ group :development, :test do
   # Environment configuration.
   gem 'dotenv-rails'
   # Use a sqlite database in test and development.
-  gem 'sqlite3', '~> 1.3.6'
+  gem 'sqlite3', '~> 1.3.13'
 end
 
 group :test do
@@ -134,3 +134,7 @@ gem 'random_password'
 gem "recaptcha"
 
 gem 'i18n-language-mapping', '~> 0.1.1'
+
+
+
+gem 'wdm', '>= 0.1.0'
